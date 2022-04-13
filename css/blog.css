@@ -1,6 +1,9 @@
 html,
 body {
     font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
 }
 
 hr {
