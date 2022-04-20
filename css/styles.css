@@ -1,11 +1,16 @@
-html, body {
+html,
+body {
   font-family: 'Heebo', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #E5E5E5;
 }
 
-h1, p, h3, h2, h4 {
+h1,
+p,
+h3,
+h2,
+h4 {
   margin: 0;
 }
 
@@ -93,5 +98,71 @@ header nav li a {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+
+.posts-section {
+  background: #EDF7FA;
+  padding: 32px 0;
+}
+
+.posts-section-inner,
+.featured-section-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.posts-section .posts-header h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.posts-section .posts-header a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  text-decoration: none;
+
+  /* Secondry */
+
+  color: #00A8CC;
+
+}
+
+.posts-section .posts-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.posts {
+  display: flex;
+  gap: 20px;
+}
+
+.posts .post-item {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.posts .post-item header h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  margin-bottom: 16px;
+
+  /* Dark Color */
+
+  color: #21243D;
+}
+
+.posts .post-item .meta {
+  display: flex;
+  gap: 26px;
   align-items: center;
 }
